@@ -1,4 +1,4 @@
-FROM node:20.0.0-alpine3.17
+FROM node:16.15.0-alpine
 WORKDIR /usr/src/app
 
 COPY ./docker-entrypoint.sh /
